@@ -1,8 +1,8 @@
 # Go Action Queue
 
-## Allows a user to create a long list of actions, then serve them one by one or all at once
+Allows a user to create a long list of actions, then serve them one by one or all at once
 
-### Example usage
+## Example usage
 
 	package main
 
