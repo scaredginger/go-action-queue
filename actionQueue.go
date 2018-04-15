@@ -1,4 +1,4 @@
-package main
+package queue
 
 type Action interface {
 	Execute()
@@ -61,7 +61,7 @@ func (q *ActionQueue) Serve() bool {
 	return true
 }
 
-func (q *ActionQueue) EmptyQueue() {
+func (q *ActionQueue) Empty() {
 	for q.Serve() {
 	}
 }
